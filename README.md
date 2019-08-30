@@ -18,7 +18,9 @@ The ID system uses git URLs, so make a git repo named `crev-proofs` wherever you
 
 `cargo crev new id --url YOUR_GIT_URL`
 
-You'll be asked for a password, this is the cryptographic "this is forever, you can never recover this" sort of password. Keep it secret, keep it safe.
+(**WARNING:** this doesn't actually clone the URL you give it, it just sets up a new git that will want to be uploaded to that URL, and then you'll have to actually fix it to work right later on when you want to publish your work. It's pure stupid.)
+
+You'll be asked for a password to associate with the ID, this is the cryptographic-style "forever, you can never recover this" sort of password. Keep it secret, keep it safe.
 
 It'll print your profile to the terminal and also save it in to a yaml file named after your public key. The file will be located in an OS dependent directory:
 
