@@ -1,6 +1,8 @@
+<!-- CREV_README_MARKER_V0 - Please don't remove this first line, or `crev` might overwrite this file.  -->
+
 # crev-proofs
 
-* public-key: ZCBwWlOeJyU79adJqX9-irGH5wrmuYxUPXeSrFKuayg
+* Lokathor's public-key: ZCBwWlOeJyU79adJqX9-irGH5wrmuYxUPXeSrFKuayg
 
 ## Quick Guide
 
